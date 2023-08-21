@@ -58,7 +58,7 @@ function criarCards(obj) {
 
     pDiv.textContent = obj.name;
     if(!obj.private) {
-        spanDiv.textContent = 'publico';
+        spanDiv.textContent = 'public';
     }
     data.textContent = 'Last Update: ' + obj.updated_at.slice(0, 10);
 }
