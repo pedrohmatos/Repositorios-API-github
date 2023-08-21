@@ -26,8 +26,24 @@ body {
 header {
     display: flex;
     justify-content: center;
+    align-items: center;
     column-gap: 16px;
 }
+
+.material-symbols-outlined.menu {
+    display: none;
+    margin-top: 32px;
+    cursor: pointer;
+    color: var(--color);
+}
+
+.menu:hover {
+    color: #152341;
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+
 
 .nav > ul {
     display: flex;

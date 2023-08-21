@@ -1,0 +1,5 @@
+@media screen and (max-width: 490px) {
+    .nav > ul {
+        column-gap: 32px;
+    }
+}
